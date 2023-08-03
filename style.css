@@ -62,8 +62,24 @@ section p {
 }
 
 button {
+  color: #fff;
   text-transform: uppercase;
   font-size: 'Open Sans', sans-serif;
+
+  background: #69b99d;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #58a389;
 }
 
 footer {
